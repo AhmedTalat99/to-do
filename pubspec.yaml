@@ -1,0 +1,47 @@
+name: to_do
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get_storage: ^2.1.1
+  get: ^4.6.5
+  flutter_local_notifications: ^14.0.0+2
+  flutter_native_timezone: ^2.0.0
+  intl: ^0.17.0
+  google_fonts: ^4.0.4
+  date_picker_timeline: ^1.2.3
+  sqflite: ^2.2.8+4
+  flutter_staggered_animations: ^1.1.1
+  flutter_svg: ^2.0.5
+  rxdart: ^0.27.7
+  table_calendar: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/appicon.jpeg"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/person.jpeg
+    - images/task.svg
